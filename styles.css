@@ -31,6 +31,54 @@ body {
   margin: 0;
 }
 
+/* Research project lists */
+
+.project-list {
+  margin: 0;
+  padding-left: 1.4em;
+}
+
+.project-list > li {
+  margin-bottom: 20px;
+  padding-left: 6px;
+  line-height: 1.55;
+}
+
+.project-list > li:last-child {
+  margin-bottom: 0;
+}
+
+.project-list > li::marker {
+  color: var(--muted);
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+
+/* Publication / funding / presentation links */
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+
+  margin-top: 5px;
+
+  font-size: 0.76rem;
+  line-height: 1.4;
+}
+
+.project-tags a,
+.project-tags span {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.project-tags a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
 /* Remove underline and change color for all links */
 a {
     text-decoration: none; /* Removes underline */
@@ -239,9 +287,10 @@ a {
 }
 
 .main h3 {
-  margin: 0 0 14px;
-  font-size: 1.18rem;
+  margin: 0 0 18px;
+  font-size: 1.05rem;
   line-height: 1.4;
+  font-weight: 500;
 }
 
 .main h4 {
@@ -260,7 +309,8 @@ a {
   margin: 0 0 1em;
 }
 
-.main ul {
+.main ul,
+.main ol {
   margin: 10px 0 0;
   padding-left: 1.25em;
 }

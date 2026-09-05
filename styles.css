@@ -96,6 +96,12 @@ a {
   -webkit-backdrop-filter: blur(14px);
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 .navbar a {
   float: none;
   display: flex;
@@ -266,20 +272,13 @@ a {
 /* Images */
 .side img {
   display: block;
+  max-height: 320px;
   width: 100%;
-  max-width: 320px;
   height: auto;
   margin: 0;
   border: 0;
   border-radius: 14px;
-  object-fit: cover;
-}
-
-/* Home portrait gets a quiet photographic treatment. */
-.row > .side:first-child img {
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  box-shadow: 0 8px 26px rgba(31, 35, 33, 0.12);
+  object-fit: contain;
 }
 
 /* Footer */

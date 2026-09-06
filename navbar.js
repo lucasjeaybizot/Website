@@ -5,7 +5,7 @@ const navItems = [
   ["research_page.html", "Research"],
   ["education_page.html", "Education"],
   ["publications_page.html", "Publications"],
-  ["blog_page.html", "News"]
+  ["blog_page.html", "Updates"]
 ];
 
 const nav = document.getElementById("navbar");

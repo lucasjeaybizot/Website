@@ -495,6 +495,139 @@ a {
   object-fit: contain;
 }
 
+/* Education */
+
+.education-side img {
+  width: auto;
+  max-width: 170px;
+  max-height: 105px;
+  margin-top: 22px;
+
+  object-fit: contain;
+  border-radius: 0;
+}
+
+.education-entry h3 {
+  margin: 0 0 5px;
+
+  font-size: 1.08rem;
+  font-weight: 550;
+  line-height: 1.4;
+}
+
+.education-entry h3 a {
+  color: var(--text);
+  font-weight: inherit;
+}
+
+.education-entry h3 a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.education-school {
+  margin: 0 0 3px !important;
+
+  color: var(--text);
+  font-size: 0.94rem;
+  font-weight: 500;
+}
+
+.education-meta {
+  margin: 0 0 15px !important;
+
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.education-description {
+  margin: 0 0 12px !important;
+
+  color: var(--text);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.education-thesis {
+  margin: 0 !important;
+
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.education-thesis span {
+  margin-right: 6px;
+
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+
+/* Additional training */
+
+.training h3 {
+  margin: 0 0 12px;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.training .training-subheading {
+  margin-top: 30px;
+}
+
+.training-list {
+  list-style: none;
+  margin: 0;
+  padding: 0 !important;
+}
+
+.training-list li {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 14px;
+
+  margin: 0 !important;
+  padding: 10px 0;
+
+  border-bottom: 1px solid var(--line);
+}
+
+.training-list li:last-child {
+  border-bottom: 0;
+}
+
+.training-year {
+  color: var(--muted);
+  font-size: 0.77rem;
+  font-weight: 500;
+}
+
+.training-list a {
+  color: var(--text);
+
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.training-list a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.training-detail {
+  display: block;
+
+  margin-top: 1px;
+
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.4;
+}
+
 /* Footer */
 .footer {
   width: min(calc(100% - 40px), var(--max-width));
